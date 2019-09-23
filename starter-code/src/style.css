@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 4.5rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.landingText p {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.nav,
+.landingTop {
+  background-color: rgb(52, 63, 92);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 15%;
+}
+
+.nav {
+  padding: 2% 15%;
+}
+
+.landingTop {
+  height: 550px;
+  align-items: flex-end;
+  padding-bottom: 40px;
+}
+
+.landingText {
+  width: 60%;
+}
+
+button {
+  border: none;
+  padding: 20px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.features {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 10%;
+  margin-top: 80px;
+}
+
+.featureBox {
+  width: 200px;
+  padding: 20px 0;
+}
+
+#react1 {
+  width: 250px;
+  transform: translate(80px, -100px);
+}
+
+#react2 {
+  width: 150px;
+  transform: translate(0px, 20px);
+}
+
+#react3 {
+  width: 200px;
+}
